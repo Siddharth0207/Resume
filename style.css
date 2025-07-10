@@ -19,8 +19,8 @@ header {
 }
 
 .role {
-  font-size: 24px;
-  font-weight: 200;
+  font-size: xx-large;
+  font-weight: 300;
   color: #666;
 }
 
@@ -58,7 +58,7 @@ h3 {
 }
 
 h4 {
-  font-size: 22px;
+  font-size: xx-large;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -128,12 +128,13 @@ ul {
   gap: 20px; /* Adds spacing between the job-heading and time */
 }
 .college-container h4 {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 10px;
+  font-size: x-large;
 }
 .college-container time {
   font-size: 16px;
-  color: #999;
+  color: #998;
   margin-top: 5px;
   align-self: flex-end; /* Aligns time to the right */
 }
@@ -147,7 +148,7 @@ ul {
 }
 .job-role {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   color: #333;
   margin-top: 10px;
 }
