@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Siddharth Gautam</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="name">Siddharth Gautam Kushwaha</h1>
+        <h2 class="role">AI ML Developer</h2>
+        <nav class="hyperlinks">
+            <a href="https://github.com/Siddharth0207" target="_blank">Github Jii</a>
+            <a href="https://www.linkedin.com/in/siddharth-gautam-kushwaha-5540ba227/" target="_blank">LinkedIn Jii</a>
+            <a href="mailto:siddharthkushwaha33@gmail.com" class="email-button">Email Me</a>
+        </nav>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="introduction" id="introduction">
+            <p class="paragraph">Hi, I'm Siddharth — a Deep Learning and Generative AI Engineer focused on building
+                production-grade, real-time voice agents, RAG pipelines, and intelligent multimodal systems. I blend my
+                expertise across ML, systems programming, and deployment to develop solutions that push the boundaries
+                of what's possible with AI.</p>
+        </section>
+
+        <section class="education" id="education">
+            <h3>Education</h3>
+            <div class="college-container">
+                <h4>Government Engineering College</h4>
+                <time>October'20 - June'24</time>
+                <p class="cgpa">8.12 CGPA</p>
+            </div>
+        </section>
+
+        <section class="work-experience" id="work-experience">
+            <h3>Work Experience</h3>
+            <article class="job">
+                <h4>Upstair Technologies LLP</h4>
+                <h1 class="job-role"> AI ML Developer</h1>
+                <time>March'25</time>
+                <ul>
+                    <li>Chatbot using LLM, LangChain, NVIDIA Models and PostGres for Database.</li>
+                    <li>Using LangChain Memory, Redis for Conversational Memory.</li>
+                    <li>Voice Agent Wrapper using RealtimeTTS and gTTS.</li>
+                    <li>Created the Two Project : "ChatBot for Diamonds" & "Voice Agent Capable System"</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <h4>Otobit PVT LTD</h4>
+                <h1 class="job-role">Quality Analyst / Quality Control</h1>
+                <time>Jan'24 - Jul'24</time>
+                <ul>
+                    <li>Day to Day Responsibilities include creating a bugsheet and communicating it with developers.
+                    </li>
+                    <li>Using Chrome Developer tools, Postman API, Flask App and regression testing to push features or
+                        software on time.</li>
+                    <li>Creating product flow and conducting regression testing.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="projects" id="projects">
+            <h3>Projects</h3>
+            <article class="project">
+                <h4>CKD Prediction</h4>
+                <ul>
+                    <li>This project implements a machine learning-based prediction model for Chronic Kidney Disease
+                        (CKD) using patient health data.</li>
+                    <li>It helps in early detection and diagnosis by analyzing various medical parameters.</li>
+                    <li>Built using Python, with scikit-learn, pandas, NumPy, and Matplotlib for data processing, model
+                        training, and visualization.</li>
+                    <li>The model leverages classification algorithms like Decision Trees, Random Forest, and SVM to
+                        predict CKD status with high accuracy.</li>
+                    <li>Integrated Docker for containerization and DVC for data version control.</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h4>Chatbot</h4>
+                <ul>
+                    <li>Built a full-stack AI-powered chatbot using FastAPI, PostgreSQL, and LangChain with an
+                        NVIDIA/Meta LLM backend. </li>
+                    <li>
+                        Designed a modern, responsive frontend for natural language diamond search and recommendations.
+                    </li>
+                    <li>Implemented robust normalization, async database queries, and multi-turn chat with session
+                        support. </li>
+                    <li>Achieved an 85%+ user query resolution rate, delivering accurate results and summaries for
+                        diamond buyers.</li>
+                    <li>Added comprehensive logging, error handling, and concurrency/load testing for production
+                        reliability.</li>
+                </ul>
+            </article>
+
+            <article class="project">
+                <h4>End to End Voice to Voice System for Voice Agents</h4>
+                <ul>
+                    <li>Developed a real-time conversational AI voice agent for diamond recommendations using FastAPI,
+                        WebSockets, and Redis. </li>
+                    <li>The system leverages Whisper for live speech-to-text (STT), LangChain+OpenAI for natural
+                        language understanding and dialogue management, and gTTS for text-to-speech (TTS) responses.
+                    </li>
+                    <li>Designed and implemented a multi-turn dialogue flow with slot-filling, live transcription, and
+                        dynamic TTS playback, enabling seamless, interactive voice-based user experiences.</li>
+                    <li>Tech Stack: Python, FastAPI, WebSockets, Redis, Whisper, LangChain, OpenAI, gTTS, NumPy</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

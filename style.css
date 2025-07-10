@@ -1,0 +1,272 @@
+body {
+  font-family: "IBM Plex Mono", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 300;
+  color: #222;
+}
+
+.role {
+  font-size: 24px;
+  font-weight: 200;
+  color: #666;
+}
+
+.hyperlinks {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.hyperlinks a {
+  color: #4b4b4b;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #666;
+  padding-bottom: 2px;
+}
+
+.hyperlinks a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.job-description li {
+  margin-bottom: 10px;
+}
+
+.projects article {
+  margin-bottom: 20px;
+}
+
+.introduction {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: #555;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph {
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #333;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+  color: #333;
+}
+
+.heading h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.job-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px; /* Adds spacing between the job-heading and time */
+}
+.job-description {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+  margin-left: 20px; /* Adds indentation */
+  padding-left: 20px; /* Ensures proper alignment */
+  list-style-position: inside; /* Aligns list markers with text */
+}
+.college-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adds spacing between the job-heading and time */
+}
+.college-container h4 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.college-container time {
+  font-size: 16px;
+  color: #999;
+  margin-top: 5px;
+  align-self: flex-end; /* Aligns time to the right */
+}
+
+.job-heading {
+  text-align: left;
+}
+
+.time {
+  text-align: right;
+}
+.job-role {
+  font-size: 18px;
+  font-weight: 100;
+  color: #333;
+  margin-top: 10px;
+}
+
+.job-heading h4 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.job-heading h5 {
+  font-weight: 200;
+  color: #666;
+  margin-top: 5px;
+}
+
+.college {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+  color: #555;
+}
+
+.time {
+  font-size: 16px;
+  align-self: right;
+  color: #999;
+  margin-top: 5px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.projects-github {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projects-github h4 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.projects-container h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin: 0 15px;
+}
+
+.navbar-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-list a:hover {
+  color: #ddd;
+}
+
+/* Email Button Styling */
+.email-button {
+  background-color: #ddd; /* Changed to a professional dark grey */
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.email-button:hover {
+  background-color: #b2b0b0;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .name {
+    font-size: 40px;
+  }
+
+  .role {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
